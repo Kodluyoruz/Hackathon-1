@@ -1,0 +1,273 @@
+body{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+/*ul liste noktalrını sime*/
+ul{
+  list-style: none;
+}
+
+/*iconlar*/
+#sosyal{
+background: #FFF;
+color: #000;
+padding: 1rem;
+border-radius: 50%;
+position: absolute;
+top: 1rem;
+left:38% ;
+z-index:5000000000000000 ;
+font-size: 1.5rem;
+transition: all 1s;
+}
+
+/*NAV*/
+#nav{
+  z-index:99999999999999999999999999 ;
+  background:rebeccapurple;
+  padding: 1rem 3rem;
+  display: flex;
+  position: absolute;
+  top: 7rem;
+  left: 10%;
+  width: 75%;
+  position: fixed;
+  top: 5rem;
+  
+}
+
+#nav li{
+  float: left;
+  background: #FFF;
+  padding: 1rem 2rem;
+  margin-left: 4rem; 
+  transition: all 1s;
+}
+#nav li:hover{
+  background: gold;
+  border-radius: 2.5rem 0 2.5rem 0;
+}
+
+#nav a{
+  text-decoration: none;
+  color: rebeccapurple;
+  font-weight: bold;
+}
+#nav li:hover a{
+  color: white;
+}
+/*ROKET*/
+.roket{
+  color: gold;
+  font-size: 5rem;
+  margin: 0 0 0 2rem;
+}
+
+
+#sosyal:hover{
+  border-radius: .5rem;
+  background:gold;
+}
+
+.a{
+  margin:0 0 0 5rem;
+}
+
+
+
+.b{
+  margin:0 0 0 15rem;
+}
+
+
+.c{
+  margin:0 0 0 10rem;
+}
+
+/*
+.d{
+  margin:0 0 0 0;
+  padding: 50px
+}
+*/
+/*YÖN OKLARI*/
+#sol{
+  position: absolute;
+  top: 40%;
+  left: 1rem;
+  font-size: 2rem;
+  color:#FFF;
+  transition: all 1s;
+}
+#sol:hover{
+  color: #000;
+}
+
+#sag{
+  position: absolute;
+  top: 40%;
+  left: 96%;
+  font-size: 2rem;
+  color:#FFF;
+  transition: all 1s;
+}
+#sag:hover{
+  color: #000;
+}
+
+
+
+/*SLİDER*/
+#img-slider{
+  width: 100%;
+}
+.card{
+  position: absolute;
+  top: -1rem;
+  
+}
+
+.card-body{
+  position: absolute;
+  top: 75%;
+  left: 27%;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #FFF;
+}
+
+.card-body h5{
+  margin: 0 0 0 18rem;
+}
+
+/*HAKKIMZDA CARD*/
+.üst-1{/*bir container yaptık yapmasakta olurdu*/
+    width: 1140px;
+    z-index:9000000000000000000000000000000000000000000000;
+}
+
+.ortak-m{
+  margin: 45rem auto 0 auto;
+}
+
+.üst{/*genişligi paddingi ve yan yana gelmesi için bir cerceve 
+    olusturp genişlik padding ve float left verdik*/
+    width: 30%;
+    float: left;
+    padding: 1rem;
+}
+
+.alt{/*içindeki resim ve bg için relarive verdikki resim ve
+    bg buna gore hizlasınlar kendini */
+    position: relative;
+}
+
+.img-card{/*once bir block eleman yaptım sonra bulundugu cerceveye
+    kendisini sıgdırması için de 100% degerini ve em boy oranı
+    bozulmasın diye height da auto verdim*/
+    max-width: 100%;
+    height: auto;
+    display:block;
+}
+
+
+.bg{/*absolute verdim cunku bir üstündeki elemana relative verdim
+    ki kendisini reletive gore hizlasın opacityi 0 verdim yani 
+    gorunmez yaptık*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000000;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.alt:hover .bg{/*eger .alt klasına sahip eleman hover olunca yani
+    fare üzrine gelince bg`nin opacitesini .9 yap saydam bir sekilde
+    ortaya cıkıyor*/
+    opacity: .9;
+}
+
+.icon{/*position reletive verdim bulundugu konumdan hizalanması 
+    için sonra top ve left vererek konumunu belirledim*/
+    position: relative;
+    top: 40%;
+    left:1%;
+}
+
+.st-1{/*iconun buyukulugunu belirttim*/
+    font-size: 4rem;
+}
+
+/*************************************************/
+
+.üst-1{
+  text-align: center;
+}
+
+
+/*PROFİLE RADİUS*/
+.border{
+  border-radius:50%;
+}
+.profile{
+  margin: 30rem auto 0 auto;
+}
+
+/*İLETİŞİM*/
+input:focus{
+ outline: 0;
+}
+
+input{
+  border: none;
+  border-bottom: 1px solid #000;
+  padding: 1rem 0 .5rem 0;
+  display: block;
+  width: 50%;
+  margin: 2rem 0 0 0;
+}
+/*
+.formlar{
+/*margin: 30rem 20rem;
+display: block;
+padding:40rem 0  0 20rem;
+width: 100%;
+}
+*/
+
+.formlar a{
+  text-decoration: none;
+  background: rebeccapurple;
+  color: #FFF;
+  padding: .8rem 2.8rem;
+  display: block;
+  max-width: 50px;
+  transition: all 1s;
+  }
+.formlar a:hover{
+  background: gold;
+}
+
+
+
+#textarea{
+  margin: 2rem 0 0 -20;
+  
+}
+
+
+.footer{
+
+width: 100%;
+}
+.ustdiv{
+  padding:2%;
+  max-width: 100%;
+  height:100px ;
+ background-color: #4337df;
+}

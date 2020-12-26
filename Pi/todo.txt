@@ -1,0 +1,36 @@
+ +Anasayfa
+    -Menuler
+      -iletişim
+      -Hackathon
+    -Sponsorlar
+ +Sıkça Sorulan Sorular Sayfası
+ +Discord Yönlendirme
+ +İletişim
+ +İçerik Listesi
+ +İçerik Detay
+ +Takım
+
+Hackathonda sıkça sorulan sorular (S.S.S) kısmı oluşturulacak. Soruları son sayfada bulabilirsiniz 👇 Eklemek istediğiniz sorular ile orayı çoşturabilirsiniz. 😁
+ +Sıkça Sorulan Sorular Sayfası
+Sitenin içerisinde Kodluyoruz Discord sunucusuna yönlendirme kısmı istiyoruz 👌 Katılım linki burada
+ +Discord Yönlendirme
+Sponsorların logolarının en altta gösterilmesini istiyoruz. (Logoları zip ve rar dosyasının içinde bulabilirsiniz.🙌)
+ +Sponsorlar
+Kodluyoruz iletişim kısmı veya sayfası (one/single/landing page) içeriğinde iletişim formu, adres, mail adresi ve Google map yer alabilir. 
+ +İletişim
+Gelecek hackathon etkinliklerinin tanıtılması için  içerik ve detayları kısmı veya sayfası istiyoruz. 💁
+ +İçerik Listesi
+ +İçerik Detay
+Web sitesini hazırlayan kişilerin kendilerinin tanıtıldığı kısım (veya sayfası).
+ +Takım
+Site renklerin Kodluyoruz kurumsal renkleriyle aynı ya da yakın olmasını bekliyoruz (turuncu ve mor). Renk paletini zip ve rar dosyasında bulabilirsiniz👀 Renk örnekleri için Kodluyoruz web sitesini buradan inceleyebilirsiniz. 
+
+
+-----
+Sıkça Sorulan Sorular
+
+Backend gibi herhangi bir teknoloji kullanabilir miyim?
+Evet. Her bir takım için backend veya herhangi bir teknoloji kullanmaları tamamen serbest olup puanlamada ek olarak avantaj sağlayacağından emin olabilirsiniz. Fakat backend veya web frameworklerinin olmaması takımınızı bu etkinlikte elemez.
+
+Siteye yukarıda belirtilmeyen fakat eklenmesi gerektiğini düşündüğüm bazı detayları ekleyebilir miyim?
+Tabii ki. Kodluyoruz Hackathon tamamen yeni fikirlere ve ayrıcalıklara özen gösteren ve herkesin aklında olanları kodlara dökmek için tamamen serbest olduğu bir etkinliktir.

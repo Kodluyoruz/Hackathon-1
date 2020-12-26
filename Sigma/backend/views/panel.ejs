@@ -1,0 +1,67 @@
+<h1>Selam!</h1>
+
+<div id="crud">
+    <div id="add">
+        <label for="add_hackathon">Ekleme</label>
+        <form id="add_hackathon" action="/admin/proxy">
+            <input name="title" placeholder="Başlık" type="text" />
+            <input name="descp" placeholder="Açıklama" type="text" />
+            <input name="submit" value="Add" type="submit" />
+        </form>
+    </div>
+    <br />
+    <div id="delete">
+        <label for="delete_hackathon">Silme</label>
+        <form id="delete_hackathon" action="/admin/proxy">
+            <select name="hackathons" id="delete_selector" multiple>
+                <% for (let i of hackathons) { %>
+                <option value="<%=i.id%>"><%= i.title %></option>
+                <% } %>
+            </select>
+
+            <input name="submit" value="Delete" type="submit" />
+        </form>
+    </div>
+    <br />
+    <div id="update">
+        <label for="update_hackathon">Değiştirme</label>
+        <form id="update_hackathon" action="/admin/proxy">
+            <select name="hackathons" id="update_selector">
+                <% for (let i of hackathons) { %>
+                <option value="<%=i.id%>"><%= i.title %></option>
+                <% } %>
+            </select>
+            <div id="preview">
+                <input name="title" placeholder="Başlık" type="text" />
+                <input name="descp" placeholder="Açıklama" type="text" />
+            </div>
+            <input name="submit" value="Update" type="submit" />
+        </form>
+    </div>
+    <br />
+    <script>
+        (async function () {
+            const url = 'http://localhost:8080/data';
+            hackathons = await fetch(url)
+                .then((res) => res.json())
+                .then((data) => {
+                    return data;
+                });
+            console.log(hackathons);
+            const update_selector = document.getElementById('update_selector');
+            console.log(update_selector);
+            const preview = document.getElementById('preview');
+            const title = preview.children[0];
+            const descp = preview.children[1];
+            console.log(update_selector);
+            title.value = hackathons[update_selector.value - 1].title;
+            descp.value = hackathons[update_selector.value - 1].descp;
+
+            update_selector.addEventListener('change', function (e) {
+                title.value = hackathons[this.value % hackathons.length].title;
+                descp.value = hackathons[this.value % hackathons.length].descp;
+            });
+            //bitmedi...
+        })();
+    </script>
+</div>

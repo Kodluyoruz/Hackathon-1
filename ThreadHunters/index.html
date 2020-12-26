@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Kodluyoruz</title>
+
+    <!-- description text that displays below the link in google search results -->
+    <meta name="description" content="Kodluyoruz Hackathon" />
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+</head>
+
+<body>  
+    <header class="header">
+        <marquee behavior="scroll" direction="left">Kodluyoruz Hackathon</marquee>
+
+        <a href="" class="logo"><img style="height: 70px;" src="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png" class="h-10"></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"
+          ><span class="navicon"></span
+        ></label>
+        <ul class="menu">
+          <li><a href="#" class="cool-link">Anasayfa</a></li>
+          <li><a href="#block1" class="cool-link">Eğitimler</a></li>
+          <li><a href="#block4" class="cool-link">SSS</a></li>
+          <li><a href="#block2" class="cool-link">Hakkımızda</a></li>
+          <li><a href="#block5" class="cool-link">İletişim</a></li>
+        </ul>
+      </header>
+
+    <section class="page-wrap" >
+
+
+
+
+        <article id="block1" class="module-block">
+
+            <h2>Eğitimler</h2>      
+            <button class="tablink" onclick="openPage('Cs50', this, '#f78501')"  id="defaultOpen">CS50X</button>
+            <button class="tablink" onclick="openPage('Php', this, '#f78501')">PHP</button>
+            <button class="tablink" onclick="openPage('javascript', this, '#f78501')">JAVASCRİPT</button>
+            <button class="tablink" onclick="openPage('Java', this, '#f78501')" >JAVA</button>
+            
+            <div id="Cs50" class="tabcontent">
+              <h3 >CS50x Kursu(Başlangıç)</h3>
+              <br>
+              <div class="kurslar" >
+                
+                <img style="width: auto; height: 300px;" src="assets/fa3b5a3302c8a8e6e1d56833401e893a700b272a-3667x2147.webp">
+                <div>
+                <p >CS50xKodluyoruz ödevlerine devam etmekte zorlanıyor musun? Bitirmek istediğin halde nasıl ilerleyeceğini bilmiyor musun? O zaman CS50xKodluyoruz Challenge tam sana göre! Challenge ekibiyle hedefimiz: 4. haftaya kadar bütün ödevleri tamamlamak olacak!
+                  </p>
+                  <a  class="kursa_git" target="_blank" href="https://www.kodluyoruz.org/">Kursa Git</a>
+
+                </div>
+              </div>
+        </div>
+            
+            <div id="Php" class="tabcontent">
+              <h3>Vivense PHP Talent Bootcamp</h3>
+              <div class="kurslar">
+                <img style="width: auto; height: 300px;" src="assets/b62af00c7c4ef1a3ed7faa7645884bc391e32bae-3667x2147.webp">
+              <div>
+              <p style="margin-top: 40px; display:block;">Yazılım kariyerine ilk adımları Kodluyoruz & Vivense PHP Talent Bootcamp ile birlikte at!
+                Vivense'de çalışmayı hayal edenlere iyi haberimiz var 🙌 PHP Talent Bootcamp'e katıl, 7 hafta eğitim al ve beraber proje geliştir, bootcamp sonunda hayalindeki işe adım atma şansı yakala!</p>
+                <a class="kursa_git" target="_blank" href="https://www.kodluyoruz.org/">Kursa Git</a>
+
+            </div>
+            </div>
+        </div>
+            
+            <div id="javascript" class="tabcontent">
+              <h3>Atölye15 İzmir JavaScript Bootcamp</h3>
+              <div class="kurslar">
+                <img style="width: auto; height: 300px;" src="assets/b62af00c7c4ef1a3ed7faa7645884bc391e32bae-3667x2147.webp">
+<div>
+              <p style="margin-top: 40px; display:block;">Kodluyoruz ve Atölye15'in iş birliğiyle İzmir'deki gençler için JavaScript Bootcamp başlıyor!
+                Bu bootcamp; Atölye15'in İzmir'deki ofisinde yazılım ekibine katılmak isteyen, Front-End (JavaScript) kariyerinin başlangıcında ve bu alanda kariyer düşünen kişiler içindir. Her gün öğrenmek, gelişmek istiyorsan, sonuç odaklıysan ve ekip çalışmasını seviyorsan bootcamp boyunca potansiyelini göstererek Atölye15'te iş imkanı yakalayabilirsin!</p>
+              <a class="kursa_git" target="_blank" href="https://www.kodluyoruz.org/">Kursa Git</a>
+
+            </div>
+        </div>
+            </div>
+            
+            <div id="Java" class="tabcontent">
+              <h3>Mobil Oyun Bootcamp</h3>
+              <div class="kurslar">
+              <img style="width: auto; height: 300px;" src="assets/b62af00c7c4ef1a3ed7faa7645884bc391e32bae-3667x2147.webp">
+<div>
+              <p style="margin-top: 40px; display:block;">Oyun geliştirme kariyerine ilk adımı at!
+                Oyun sektörü en çok yazılımcı açığı olan ama aynı zamanda ekonomiye en çok katkı sağlayan endüstrilerden biri. Bu yüzden Rollic, tiplay studio ve Kodluyoruz olarak her yıl en az 360 oyun yazılımcısı yetiştirmek için oFON Ekosistem çatısı altında bir araya geldik!
+                NOT: Düzenli olarak Mobil Oyun Bootcamp açıldığı için başvurular sürekli açık. Planlamalar netleştikçe başvuru yaptığınız mail adresi üzerinden sizinle iletişime geçeceğiz.</p>
+              <a class="kursa_git" target="_blank" href="https://www.kodluyoruz.org/">Kursa Git</a>
+
+            </div>
+            </div>
+        </article>
+
+
+
+        <section id="block2" class="module-block">
+
+            <h2>Hakkımızda</h2>
+
+          
+<div class="Card1">
+    <div class="photo"></div>
+    <ul class="details">
+      <h4>Furkan Yıldırım</h4>
+      <li><a href="https://github.com/furkanyldrmm">Github</a></li>
+    </ul>
+    <div class="description">
+      <div class="line">
+        <h1 class="product_name">Furkan Yıldırım</h1>
+      </div>
+      <p class="summary">An countulted cerher well bed life feet seen rent. On nature or no except it sussex.</p>
+    </div>
+  </div>
+            
+<div class="Card1">
+    <div class="photo"></div>
+    <ul class="details">
+      <h4>Faruk Koç</h4>
+      <li><a href="https://github.com/furkanyldrmm">Github</a></li>
+    </ul>
+    <div class="description">
+      <div class="line">
+        <h1 class="product_name">Faruk Koç</h1>
+      </div>
+      <p class="summary">An countulted cerher well bed life feet seen rent. On nature or no except it sussex.</p>
+    </div>
+  </div>
+
+  <div class="Card1">
+    <div class="photo"></div>
+    <ul class="details">
+      <h4>Mehmet Akif Şahin</h4>
+      <li><a href="https://github.com/makifsah12">Github</a></li>
+    </ul>
+    <div class="description">
+      <div class="line">
+        <h1 class="product_name">Mehmet Akif Şahin</h1>
+      </div>
+      <p class="summary">An countulted cerher well bed life feet seen rent. On nature or no except it sussex.</p>
+    </div>
+  </div>
+
+  <div class="Card1">
+    <div class="photo"></div>
+    <ul class="details">
+      <h4>İbrahim Yavuz</h4>
+      <li><a href="https://github.com/ibrahimy">Github</a></li>
+    </ul>
+    <div class="description">
+      <div class="line">
+        <h1 class="product_name">İbrahim Yavuz</h1>
+      </div>
+      <p class="summary">An countulted cerher well bed life feet seen rent. On nature or no except it sussex.</p>
+    </div>
+  </div>
+  
+            
+
+        </section>
+
+
+        <section id="block3" class="module-block">
+
+            <h2>Sponsorlarımız</h2>
+
+            <ul class="gallery">
+
+                <li>
+                    <a href="https://www.kodluyoruz.org/"  target="_blank">
+                        <img  alt="Kodluyoruz" src="assets/Kodluyoruz_Siyah logo_Kare.png" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.robotistan.com/" target="_blank">
+                        <img  alt="Robotistan" src="assets/logo-smile.png" />
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.kablosuzbeyin.com/" target="_blank">
+                        <img style="margin-left:90px" alt="Kablosuz Beyin" id="sonfoto" src="assets/kablosuzbeyin_500x.png" />
+                    </a>
+                </li>
+
+
+            </ul>
+
+        </section>
+
+        <section id="block4" class="module-block">
+
+                <h2>Sıkça Sorulan Sorular</h2>
+
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <a>Backend gibi herhangi bir teknoloji kullanabilir miyim?
+                        </a>
+                        <div class="contents">
+                            <p>Evet. Her bir takım için backend veya herhangi bir teknoloji kullanmaları tamamen serbest olup puanlamada ek olarak avantaj sağlayacağından emin olabilirsiniz. Fakat backend veya web frameworklerinin olmaması takımınızı bu etkinlikte elemez.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <a>Siteye yukarıda belirtilmeyen fakat eklenmesi gerektiğini düşündüğüm bazı detayları ekleyebilir miyim?
+                        </a>
+                        <div class="contents">
+                            <p>Tabii ki. Kodluyoruz Hackathon tamamen yeni fikirlere ve ayrıcalıklara özen gösteren ve herkesin aklında olanları kodlara dökmek için tamamen serbest olduğu bir etkinliktir.</p>
+                        </div>
+                    </div>
+                   
+                </div>
+
+        
+
+
+
+
+        </section>
+        <section id="block5" class="module-block">
+            <h2 style="text-align: center;">Bize Ulaşın</h2>
+
+            <div class="innerwrap">
+		
+               
+            
+                <section class="section2 clearfix">
+                    <div class="col2 column1 first">
+                        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&amp;key=AIzaSyC2m45scMpE59Pdn-R5uswTOAgSuzShReY&center=41.02670329616301,28.971435081619436&zoom=17&format=png&maptype=roadmap&style=element:geometry%7Ccolor:0xebe3cd&style=element:labels.text.fill%7Ccolor:0x523735&style=element:labels.text.stroke%7Ccolor:0xf5f1e6&style=feature:administrative%7Celement:geometry.stroke%7Ccolor:0xc9b2a6&style=feature:administrative.land_parcel%7Celement:geometry.stroke%7Ccolor:0xdcd2be&style=feature:administrative.land_parcel%7Celement:labels%7Cvisibility:off&style=feature:administrative.land_parcel%7Celement:labels.text.fill%7Ccolor:0xae9e90&style=feature:landscape.natural%7Celement:geometry%7Ccolor:0xdfd2ae&style=feature:poi%7Celement:geometry%7Ccolor:0xdfd2ae&style=feature:poi%7Celement:labels.text%7Cvisibility:off&style=feature:poi%7Celement:labels.text.fill%7Ccolor:0x93817c&style=feature:poi.park%7Celement:geometry.fill%7Ccolor:0xa5b076&style=feature:poi.park%7Celement:labels.text.fill%7Ccolor:0x447530&style=feature:road%7Celement:geometry%7Ccolor:0xf5f1e6&style=feature:road.arterial%7Celement:geometry%7Ccolor:0xfdfcf8&style=feature:road.highway%7Celement:geometry%7Ccolor:0xf8c967&style=feature:road.highway%7Celement:geometry.stroke%7Ccolor:0xe9bc62&style=feature:road.highway.controlled_access%7Celement:geometry%7Ccolor:0xe98d58&style=feature:road.highway.controlled_access%7Celement:geometry.stroke%7Ccolor:0xdb8555&style=feature:road.local%7Celement:labels%7Cvisibility:off&style=feature:road.local%7Celement:labels.text.fill%7Ccolor:0x806b63&style=feature:transit.line%7Celement:geometry%7Ccolor:0xdfd2ae&style=feature:transit.line%7Celement:labels.text.fill%7Ccolor:0x8f7d77&style=feature:transit.line%7Celement:labels.text.stroke%7Ccolor:0xebe3cd&style=feature:transit.station%7Celement:geometry%7Ccolor:0xdfd2ae&style=feature:water%7Celement:geometry.fill%7Ccolor:0xb9d3c2&style=feature:water%7Celement:labels.text.fill%7Ccolor:0x92998d&size=480x360'></script><div class="sec2map" style='overflow:hidden;height:550px;width:100%;'><div id='gmap_canvas' style='height:100%;width:100%;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://freedirectorysubmissionsites.com/">free web directories</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(19.075314480255834,72.88153973865361),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(19.075314480255834,72.88153973865361)});infowindow = new google.maps.InfoWindow({content:'<strong>Kodluyoruz</strong><br>IBB Zemin Istanbul<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                    </div>
+                    <div class="col2 column2 last">
+                        <div class="sec2innercont">
+                            <div class="sec2addr">
+                                <p style="font-family:'Roboto'">Zemin İstanbul
+
+                                    Şahkulu, Şişhane Metro Durağı, Meşrutiyet Cd. No:125, 34421 Beyoğlu/İstanbul</p>
+      
+                                <p style="font-family:'Roboto'"><span class="collig">Email :</span> info@kodluyoruz.org</p>
+
+                            </div>
+                        </div>
+                        <div class="sec2contactform">
+                            <h3 class="sec2frmtitle">Daha Fazla Bilgi mi İstiyorsunuz?</h3>
+                            <h3 class="sec2frmtitle"> Bize Mail Atın</h3>
+                            <form action="">
+                                <div class="clearfix">
+                                    <input class="col2 first" type="text" placeholder="Ad">
+                                    <input class="col2 last" type="text" placeholder="Soyad">
+                                </div>
+                                <div class="clearfix">
+                                    <input  class="col2 first" type="Email" placeholder="Email">
+                                    <input class="col2 last" type="text" placeholder="Telefon">
+                                </div>
+                                <div class="clearfix">
+                                    <textarea name="textarea" id="" cols="30" rows="7" placeholder="Mesajınızı buraya yazınız"></textarea>
+                                </div>
+                                    <div class="clearfix"><input type="submit" value="Gönder"></div>
+                            </form>
+                        </div>
+    
+                    </div>
+                </section>
+            
+            </div>
+
+
+        
+        </section>
+        <div>
+
+        <a id="discord" target="_blank" href="https://discord.gg/fBGEkpGrB5"><i class="fab fa-4x fa-discord" style="padding-right:6px;"></i>Discord Grubumuza Katılın</a>
+        </div>
+    </section><!-- page-wrap -->
+  
+    <div class="pubble-app" data-app-id="89663" data-app-identifier="89663"></div>
+
+    <div class="modal" id="b">
+        <div class="headers">
+          <a href="#" class="cancel">X</a>
+        </div>
+        <div class="content">
+
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/o8cWaZPgIZE">
+            </iframe>
+        </div>
+       
+      </div>
+      
+
+    </div>
+        
+    </div>
+    <script type="text/javascript" src="https://cdn.chatify.com/javascript/loader.js" defer></script>
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js"> </script>
+   
+
+
+
+</body>
+
+</html>c

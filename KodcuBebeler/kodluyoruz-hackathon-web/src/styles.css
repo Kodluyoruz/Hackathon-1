@@ -1,0 +1,48 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0 !important;
+}
+
+.gradient {
+    background: linear-gradient(90deg, rgba(255, 138, 76, .6), rgba(155, 81, 224, .6));
+}
+
+.gradient:hover {
+    background: linear-gradient(90deg, rgba(255, 138, 76, .9), rgba(155, 81, 224, .9));
+    background: radial-gradient();
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+.soft-button {
+    font-size: 2em;
+    width: 10em;
+    padding: 0;
+    border: none;
+    outline: none !important;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.text-white {
+    --text-opacity: 1;
+    color: #fff;
+    color: rgba(255, 255, 255, var(--text-opacity));
+}
+
+.btn-text-padding {
+    margin: 2%;
+    padding: 1%;
+}
+.mini-button{
+    font-size: 1em !important;
+    width: 5em !important;
+}

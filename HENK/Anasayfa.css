@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body,html{
+    height: 100%;
+}
+nav{
+    position: absolute;
+ 
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 140px;
+    z-index: 2;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Audiowide', cursive;
+    font-size: 25px;
+    margin-left: 30px;
+    padding: 12px 12px;
+}
+nav a:hover{
+    background-color: #000;
+}
+.gorsel{
+    height: 100%;
+    background-color: burlywood;
+}
+.bant{
+    height: 50%;
+    background-color: darkslategrey;
+
+}
+#gorsel1{
+    background-image:url("../Site için/Görseller/1_ZGieIL8v20V54fbqZvabbQ.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 50%;
+}
+#gorsel2{
+    background-image: url("../Site için/Görseller/17-0570_16-0142_shutterstock_345349079_840x420.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+#gorsel3{
+    background-image: url("../Site için/Görseller/team-building-1030x579.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}

@@ -1,0 +1,45 @@
+.navbar-content {
+    /*  display: inline-flex;
+    width: 100%;
+    justify-content: space-between;*/
+    flex-wrap: wrap;
+}
+
+.navbar-content>* {
+    flex-basis: 50%;
+}
+
+.kodluyoruz-logo {
+    height: 2.5rem;
+    max-width: 100%;
+    width: 200px;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.right-side ul {
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.text-gray-500 {
+    --text-opacity: 1;
+    color: #6b7280;
+    color: rgba(107, 114, 128, var(--text-opacity));
+}
+
+.text-gray-500:hover {
+    --text-opacity: 1;
+    color: #374151;
+    color: rgba(55, 65, 81, var(--text-opacity));
+}
+
+.text-gray-500:focus {
+    --text-opacity: 1;
+    color: #374151;
+    color: rgba(55, 65, 81, var(--text-opacity));
+}

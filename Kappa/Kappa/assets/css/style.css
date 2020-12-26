@@ -1,0 +1,48 @@
+.navbar-inverse{
+    background: rgba(0, 0, 0, .8);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    min-height: 100px;
+    margin-bottom: 0;
+}
+
+.headerBg{
+    background: linear-gradient(90deg,rgba(45,156,219,.6),rgba(155,81,224,.6));
+}
+
+.img-style{
+
+    height: 60%;
+    width: 60%;
+    padding-top: 20px;
+    }
+.btn-purple-moon {
+    background: linear-gradient(90deg,rgba(45,156,219,.6),rgba(155,81,224,.6));
+    color: white;
+    font-weight: bold;
+    width: 200;
+    border-radius: 9999px;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+}
+.bg-button {
+    background-color: #ff8a4c;
+    border-radius: 9999px;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.imageSize{
+    max-width: 70%;
+    height: 100px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}

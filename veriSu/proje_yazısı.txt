@@ -1,0 +1,3 @@
+Projeye başlamadan ilk önce ekibimizi oluşturup, planlama yaptık. Proje kapsamında ise, kullanacağımız klasörleri hazırlayarak işe başladık. 
+Geliştirdiğimiz arayüzün isteklerini belirlememiz ve düzenli dosyalama alışkanlığımız ile eklediğimiz css dosyalarını, js dosyalarını ve bize kullanmamız için verilen image dosyalarını 
+oluşturarak ve bunları kullandıkça eklemeler yaparak ilerledik.  Ayrıca, localhost üzerinden yaptıklarımızı takip ederek ilerleme katettik.

@@ -1,0 +1,37 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "React example starter project",
+  "keywords": [
+    "react",
+    "starter"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "backpack-ui": "4.96.2",
+    "bootstrap": "4.5.3",
+    "express": "4.17.1",
+    "leaflet": "1.7.1",
+    "react": "17.0.0",
+    "react-dom": "17.0.0",
+    "react-leaflet": "3.0.5",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "3.4.3",
+    "reactstrap": "8.8.0"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
