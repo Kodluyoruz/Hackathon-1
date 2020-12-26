@@ -1,3 +1,5 @@
+# Omicron Live
+https://hackathonmarathon.netlify.app/
 
 
 --> Gerekli kütphaneler:
